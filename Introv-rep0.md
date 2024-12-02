@@ -13,7 +13,9 @@ revealOptions:
     width: 1000
 ---
 
-<!-- .slide: data-background="lec0/cover.png" -->
+<!-- .slide: data-background="cov1.png" data-background-size="contain" -->
+
+
 
 
 <!--s-->
@@ -50,31 +52,21 @@ revealOptions:
     - 访谈材料的**归类分析**
 - 结题展示&报告撰写
 
-- TonyCrane
-    - 21 级图灵班信息安全专业
-    - 浙江大学 [AAA](https://zjusec.com/) 战队成员
-    - B 站知识区 up 主 [@鹤翔万里](https://space.bilibili.com/171431343)（绝赞停更中）
-    - GitHub [@TonyCrane](https://github.com/TonyCrane)
-    - 主页 https://tonycrane.cc/
-    - 笔记 https://note.tonycrane.cc/
+
 
 
 <!--v-->
 <!-- .slide: data-background="lec0/background.png" -->
 
-## 内容与时间安排
+## 时间安排(或者这个形式)
 
 <div class="three-line">
 
-|课程|日期|讲师|
+|研究步骤|日期|人员|
 |:--|:--|:--|
-|lec0：前瞻：通往 Pro 的第一步|10.14（秋四周）|TonyCrane|
-|lec1：Shell 基础及 CLI 工具推荐|10.22（秋五周）|45gfg9|
-|lec2：Git/GitHub 及开源基础|11.05（秋七周）|TonyCrane|
-|lec3：Markdown 语法及应用|11.19（冬一周）|TonyCrane|
-|lec4：LaTeX 排版简要介绍|12.03（冬三周）|45gfg9|
-|lec5：如何排出规范、美观的文档|12.17（冬五周）|TonyCrane|
-|lec6：网络/网站基础知识概述|12.31（冬七周）|45gfg9|
+|线上问卷设计|10.14（秋四周）|组会人员|
+|文献综述撰写|11.9-11.15|a,b,c..|
+|线下访谈|11.15-11.22|xxx...|
 
 </div>
 
@@ -94,84 +86,53 @@ revealOptions:
 <!--v-->
 <!-- .slide: data-background="lec0/background.png" -->
 
-## Psychology - 心理学角度
+## 社会背景 - 内卷的成因与机制
 
-<div style="text-align: center;">
-<img src="lec0/t1.png" width="85%" style="margin: 0 auto;">
-</div>
+- 优绩主义评价体系的单一性：内卷的根本成因在于社会对“优绩”的单一评价标准，导致个体为了适应这一评价体系而选择趋同的路径，最终陷入竞争的恶性循环。现代社会中，尤其在教育领域，存在着单一的成功标准（如成绩、排名等），这种优绩主义的背景使得学生在面对相同的目标时，采取了相似甚至重复的努力方式，形成了内卷的现象。
+- 张庆锐提出，现代社会中，大学生面临着外部环境对成绩的极高要求，内卷是优绩主义评价体系的直接结果，学生在这种体系下的行为选择趋向单一且同质化，缺乏真正的创新和自主性。
 
 <!--v-->
 <!-- .slide: data-background="lec0/background.png" -->
 
-## Psychology - 心理学角度
+## 社会背景 - "自由"地选择自我剥削
 
-- 文献no 1
+- 优绩主义教育强调个人奋斗与努力的重要性，鼓励学生不断追求精英化的目标。学生在这一框架下被激励争取更高的成绩和更好的职位。学生被不断告知努力和成就之间的关系，努力成为实现成功的唯一途径。
+- 然而，这种模式在表面上赋予学生自由的选择权，实际上却导致了一种“自由”的错觉。学生在追求优绩的过程中，虽然看似是在为自我发展而努力，实际上却陷入了一个不断增加压力的循环中。学生的努力不仅没有带来预期的自由，反而被过度的工作负荷束缚，最终走向过劳与倦怠。
+- 现代社会特别是数字资本主义背景下，劳动的剥削形式逐渐从强制性转变为诱导性。个体在追求优绩的过程中，主动选择了过度劳动，形成自我剥削的恶性循环，表现为“自我压榨”和“自我异化”。
+
+<!--v-->
+<!-- .slide: data-background="lec1/background.png" -->
+
+## 社会背景 - 逃避劳动与“反劳动”
+
+- 面对内卷的无效性和过度劳动的消耗，一部分学生通过逃避劳动来对抗这种无望的局面。他们通过建立“反劳动”的心态来解构传统的劳动价值观，出现了对劳动和奋斗的轻视，表现为“躺平”文化、低消费、无欲无求、慢就业等生活态度的兴起。
+- 这种“反劳动”的心态本质上是对过度劳动和内卷的反应。学生通过降低期望值、淡化对成绩的追求，试图摆脱内卷带来的负面影响，但这种态度往往无法彻底解决内卷的根本问题，而只是提供了一种短期的心理缓解。
+
+<!--v-->
+<!-- .slide: data-background="lec1/background.png" -->
+
+## 劳动异化的发生逻辑与心理动机
+1. **思维定势的影响**
+- 内卷不仅是外部环境的压力，也与个体的思维定势密切相关。很多学生从高中到大学，仍然延续着“成绩至上”的思维方式，把所有努力的价值和意义都寄托在成绩和外部的评价上，导致在面对大学生活的多元性和不确定性时感到迷茫和焦虑。
+2. **目标迷失导致的劳动两极化**
+- 当学生无法在大学找到清晰的目标和方向时，往往陷入两种极端：要么盲目追求成绩和“拼搏”式的过度劳动，要么逃避劳动，形成“反劳动”的态度。这两者都反映了劳动异化的发生过程，即个体无法从自身的内在需求出发，而是被外部的评价体系和社会期望所主导。
+
+<!--v-->
+<!-- .slide: data-background="lec1/background.png" -->
+
+## 社会背景角度
+
+- 优绩主义文献
+
 
 
 <!--v-->
 <!-- .slide: data-background="lec1/background.png" -->
 
-## Psychology - 心理学角度
+## 社会背景角度 - 优绩主义文献
 
-> <span class="serif">"end point of a railway line," 1888, from terminal (adj.); **sense of "device for communicating with a computer" is first recorded 1954.** Earlier "final part of a word" (1831).</span>
->
-> -- [在线语源学词典 (Online Etymology Dictionary)](https://www.etymonline.com/word/terminal)
 
-- 文献2
 
-[图片来源：Gorthmog, CC BY-SA 4.0, Wikimedia](https://commons.wikimedia.org/wiki/File:DEC_VT100_terminal_transparent.png)
-
-<!--v-->
-<!-- .slide: data-background="lec1/background.png" -->
-
-## Social - 社会背景角度 - 内卷
-
-- 内卷
-- 优秀主义
-
-<div class="fragment">
-
-都有什么常见的 Terminal 呢？
-
-</div>
-
-<div class="fragment">
-
-- **Windows**：Windows Terminal（推荐）
-- **Linux**：Gnome Terminal、Konsole、LXTerminal 等
-- **macOS**：Terminal.app、iTerm2（推荐）等
-- 跨平台：
-    - [Alacritty](https://alacritty.org)：基于 Rust 开发
-    - ...
-
-</div>
-
-<!--v-->
-<!-- .slide: data-background="lec1/background.png" -->
-
-## Social - 社会背景角度 - 优秀主义
-
-- “壳层”，也是一个程序，是用户与系统内核交互的界面
-- 负责接收并解析输入，交给更底层（操作系统）来执行，并返回输出
-
-<div class="fragment">
-
-都有什么常见的 Shell 呢？
-
-</div>
-
-<div class="fragment">
-
-- Windows 下：cmd.exe、PowerShell 5
-- \*nix 下：
-    - **sh**：Bourne Shell，最早、最经典的 shell
-    - **bash**：Bourne Again Shell，最常用的 shell
-        - 大部分 Linux 发行版的默认 shell
-    - **zsh**：Z Shell，功能强大、可高度自定义的 shell
-        - macOS Catalina 起成为默认 shell
-    - **fish**：Friendly Interactive Shell，开箱即用、全平台的 shell
-    - <ruby>ash<rp>(</rp><rt>Almquist Shell</rt><rp>)</rp></ruby>, <ruby>csh<rp>(</rp><rt>C Shell</rt><rp>)</rp></ruby>, <ruby>ksh<rp>(</rp><rt>Korn Shell</rt><rp>)</rp></ruby>, nushell, <ruby>pwsh<rp>(</rp><rt>PowerShell 7</rt><rp>)</rp></ruby>, xonsh, ...
-</div>
 
 
 <!--v-->
@@ -179,7 +140,7 @@ revealOptions:
 
 ## Personal - 个人背景 - 家庭
 
-- 
+- 插入文献
 
 
 <!--v-->
@@ -187,53 +148,25 @@ revealOptions:
 
 ## Personal - 个人背景 - 籍贯  
 
-- 命令行也是一种操作计算机的方式，理论上可以做任何事情
-- 可以让你手在键盘上就能控制电脑，而不需要鼠标点来点去
-- 在没有显示器的机器上（例如通过 ssh 连接服务器），只能通过命令行操作
+<!--v-->
+<!-- .slide: data-background="lec1/background.png" -->
 
+## 心理学研究 - 利用眼动仪
 
-<div style="text-align: center;">
-<img src="lec1/img1.png" width="65%" style="margin: 0 auto;">
-</div>
+- 什么是眼动仪?
+- 插入文献
+- 插入图片
 
 
 <!--v-->
 <!-- .slide: data-background="lec1/background.png" -->
 
-## 为什么要用命令行？它能做什么？
+## 心理学研究 - 文献 
 
-别再用 Dev-C++ 写程序了，尽早使用 VSCode 与命令行 gcc
 
-```shell
-$ cat a.c
-#include <stdio.h>
-int main(void) {
-  puts("Hello world!");
-}
+- 插入文献
 
-$ gcc a.c -o a
 
-$ ./a
-Hello world!
-```
-
-<!--v-->
-<!-- .slide: data-background="lec1/background.png" -->
-
-## \* 关于 zsh 的一些推荐配置
-
-- oh-my-zsh：<https://ohmyz.sh>，一个 zsh 的配置框架，支持主题、插件等配置
-<blockquote class="serif">Oh My Zsh will not make you a 10x developer...but you may feel like one!</blockquote>
-- Powerlevel10k（p10k）：一个 oh-my-zsh 的主题，配置简单，美观
-- 插件：
-    - git：oh-my-zsh 自带插件，提供 git 相关的自动补全与 alias
-    - sudo：oh-my-zsh 自带插件，按两次 Esc 自动添加 sudo
-    - z：oh-my-zsh 自带插件，快速跳转到曾经跳转过的目录
-    - zsh-autosuggestions：自动提示输入过的历史命令
-    - zsh-syntax-highlighting：命令语法高亮
-    - ...
-
-具体安装方法等可参考：<https://note.tonycrane.cc/cs/tools/shell/>
 
 <!--s-->
 <!-- .slide: data-background="lec2/background.png" -->
@@ -251,11 +184,8 @@ Hello world!
 
 ## 调查结果 - 可视化
 
-<div style="text-align: center;">
-<img src="lec0/git.gif" width="85%" style="margin: 0 auto;">
-<p style="margin-top: 0.1em;">lazygit</p>
-</div>
 
+- 插入饼状图 图片
 
 <!--v-->
 <!-- .slide: data-background="lec0/background.png" -->
@@ -270,9 +200,7 @@ Hello world!
   - 最受欢迎的组合是“完全休息，放松身心”加上其他活动，如学习新技能、旅行、或自我探索与反思，这表明学生希望在假期中既能放松又能有所收获。
 
 
-<div style="text-align: center;">
-<img src="lec2/git-history.png" width="60%" style="margin: 0 auto;">
-</div>
+
 
 <!--s-->
 <!-- .slide: data-background="lec2/background.png" -->
@@ -291,9 +219,7 @@ Hello world!
 
 ## 5 Portrait
 
-<div style="text-align: center;">
-<img src="lec2/model.png" width="100%" style="margin: 0 auto;">
-</div>
+
 
 - 目标掌控型
     - 目标明确，自我要求高，自主性强
@@ -350,10 +276,8 @@ Hello world!
   - 根据学业任务的紧迫程度灵活调整计划。
   3. 内卷应对策略
   - 合理的时间管理和复习策略来应对学业压力。目标掌控者通- 通过提前复习、合理分配学习任务时间来减轻内卷带来的焦虑，并选择适当的放松方式来应对压力。
-  4. 舒适感与心理自洽
-  - 目标掌控者不仅仅注重外部任务的完成，还会关注自己内心的舒适感和心理自洽。尽管学业任务繁重，但他们通过合理安排时间和灵活调整，保持自己的心理平衡。游戏等放松活动虽然不能完全缓解内卷压力，但却是短期放松和心理调节的方式，帮助他们保持舒适感，从而更好地应对学业压力。
+  4. 舒适感与心理自洽好地应对学业压力。
   5. 社会文化影响与个体选择
-  - 身边同学的行为和周围环境（如寝室氛围）对目标掌控者有一定影响，但他们依然坚持自己的安排，避免被外部环境完全左右。目标掌控者虽然能够应对外部压力，但也会受到社会文化背景的影响。
 
 
 <!--v-->
@@ -482,18 +406,6 @@ Hello world!
     - 通过游戏、健身等放松活动代替深层次自我提升
 - 3. 个性选择:注重自我节奏,远离竞争核心,追求心理自洽
 - 4. 批判内卷，但无法摆脱环境的影响，表现出被动应对
-
-## GitHub 基本用法实操
-
-- 新建 repo，基本设置
-- 添加代码：
-    - 从头开始的空项目：直接 clone
-    - 从本地非 git 项目上传：init 后修改 remote
-    - 修改、add、commit、push
-- 分支、合并：branch / GitHub 上操作
-- release：扩展的打 tag
-- 小组项目合作：协作者、私有 repo 权限管理
-    - pull request、merge、conflict 处理        
 
 
 <!--s-->
